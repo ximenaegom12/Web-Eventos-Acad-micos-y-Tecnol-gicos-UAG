@@ -1,0 +1,328 @@
+Proyecto: Modelo Antigravity aplicado a Ecosistemas Digitales para Eventos Académicos y Tecnológicos
+1. Objetivo General
+
+Diseñar y validar conceptualmente un modelo digital de gestión y dinamización de eventos académicos y tecnológicos basado en el enfoque Antigravity, orientado a incrementar la participación, retención e interacción estudiantil mediante mecánicas de motivación progresiva y seguimiento post-evento.
+
+2. Objetivos Específicos
+
+Analizar el funcionamiento actual de eventos académicos universitarios.
+
+Identificar fricciones en participación y seguimiento.
+
+Diseñar una arquitectura digital modular para eventos.
+
+Definir un sistema de interacción gamificada.
+
+Elaborar prototipos conceptuales de la plataforma.
+
+Realizar pruebas exploratorias de experiencia de usuario a nivel conceptual.
+
+3. Justificación
+
+Los eventos académicos tradicionales presentan problemáticas recurrentes:
+
+Baja participación activa.
+
+Interacción limitada durante las ponencias.
+
+Escasa continuidad post-evento.
+
+Ausencia de métricas detalladas de impacto.
+
+Modelos institucionales como los desarrollados por Escuela de Ingeniería Industrial y de Sistemas UAG muestran estructuras organizativas consolidadas; sin embargo, existe oportunidad de innovación tecnológica orientada a experiencia digital integrada.
+
+El enfoque Antigravity aplicado a eventos propone:
+
+Generar impulso previo al evento.
+
+Mantener interacción activa en tiempo real.
+
+Incentivar participación mediante micro-recompensas.
+
+Extender la experiencia más allá del cierre formal.
+
+4. Marco Conceptual (Avance Teórico Inicial)
+
+El modelo Antigravity, aplicado a eventos, se conceptualiza como un sistema de activación progresiva en tres etapas:
+
+4.1 Etapa Pre-Evento
+
+Registro dinámico.
+
+Sistema de misiones previas.
+
+Expectativa gamificada.
+
+4.2 Etapa Durante el Evento
+
+Participación mediante retos interactivos.
+
+Validación de asistencia digital.
+
+Sistema de puntos por interacción.
+
+4.3 Etapa Post-Evento
+
+Certificaciones digitales.
+
+Seguimiento de aprendizaje.
+
+Comunidad persistente.
+
+4.2 Análisis Comparativo Preliminar
+
+Se realizó benchmarking conceptual entre:
+
+Eventos académicos tradicionales.
+
+Congresos tecnológicos híbridos.
+
+Plataformas de webinars interactivos.
+
+| Elemento    | Evento Tradicional | Evento Digital | Oportunidad Antigravity |
+| ----------- | ------------------ | -------------- | ----------------------- |
+| Interacción | Baja               | Media          | Retos en tiempo real    |
+| Seguimiento | Escaso             | Limitado       | Sistema post-evento     |
+| Motivación  | Extrínseca         | Moderada       | Micro-recompensas       |
+| Métricas    | Básicas            | Variables      | Dashboard analítico     |
+
+
+Conclusión parcial:
+
+Existe viabilidad conceptual para integrar un ecosistema digital que transforme eventos aislados en experiencias académicas continuas.
+
+5. Metodología
+
+Se adoptó una metodología estructurada en cuatro fases:
+
+Fase 1 – Análisis
+
+Investigación de modelos de eventos universitarios.
+
+Identificación de puntos de fricción.
+
+Definición de requerimientos preliminares.
+
+Fase 2 – Diseño Conceptual
+
+Arquitectura en capas.
+
+Diseño de flujos de interacción.
+
+Definición de sistema de puntos.
+
+Fase 3 – Prototipado
+
+Wireframes de:
+
+Registro
+
+Dashboard organizador
+
+Panel participante
+
+Diseño de sistema de acreditación digital.
+
+Fase 4 – Pruebas Conceptuales
+
+Simulación de experiencia de usuario.
+
+Evaluación heurística.
+
+Ajustes preliminares.
+
+6. Arquitectura en Capas (Propuesta Conceptual)
+
+[ Participante / Organizador ]
+           ↓
+[ Frontend Web ]
+           ↓
+[ API REST ]
+           ↓
+[ Motor Antigravity Eventos ]
+           ↓
+[ Base de Datos ]
+
+
+Componentes del Motor Antigravity Eventos
+
+Módulo de registro dinámico.
+
+Sistema de puntuación por interacción.
+
+Generador de certificaciones digitales.
+
+Dashboard analítico para organizadores.
+
+Sistema de seguimiento post-evento.
+
+7. Diseño de Flujo de Usuario
+Participante
+
+Inicio
+↓
+Registro al evento
+↓
+Acceso a agenda
+↓
+Participación en retos interactivos
+↓
+Obtención de puntos
+↓
+Certificación digital
+
+Organizador
+
+Inicio
+↓
+Creación de evento
+↓
+Configuración de dinámicas
+↓
+Monitoreo en tiempo real
+↓
+Visualización de métricas
+
+8. MVP Propuesto (Realista)
+
+Para evitar sobrecarga y mantener coherencia académica, el MVP incluirá:
+
+Solo 1 Evento Piloto
+
+Evento académico tecnológico universitario.
+
+Funcionalidades Incluidas
+1️ Registro Digital
+
+Registro de usuario.
+
+Confirmación de asistencia.
+
+Generación de código QR.
+
+2️ Interacción Básica en Evento
+
+Validación de asistencia.
+
+Sistema de puntos por participación.
+
+Encuestas rápidas por sesión.
+
+3️ Dashboard Organizador
+
+Número de asistentes.
+
+Nivel de participación.
+
+Métricas básicas de interacción.
+
+4️ Certificación Digital
+
+Generación automática de constancia.
+
+Descarga en PDF.
+
+Funcionalidades que NO se incluyen en el MVP
+
+App móvil nativa.
+
+Chat en tiempo real.
+
+Integración con redes sociales.
+
+Ranking global.
+
+IA predictiva de participación.
+
+Plataforma multi-evento avanzada.
+
+Estas funciones se consideran expansión futura.
+
+9. Stack Tecnológico Propuesto (Sujeto a Validación)
+
+Frontend: React
+Backend: Node.js + Express
+Base de datos: PostgreSQL o MongoDB
+Autenticación: JWT
+
+Esta selección tecnológica se encuentra en fase de evaluación y validación técnica.
+
+10. Avances Actuales (Fase de Diseño Conceptual)
+
+Actualmente el proyecto se encuentra en:
+
+✔ Análisis de estructura de eventos académicos.
+✔ Identificación de fricciones en participación.
+✔ Formalización del modelo Antigravity aplicado a eventos.
+✔ Definición de requerimientos funcionales preliminares.
+✔ Diseño de arquitectura conceptual.
+✔ Modelado de flujo de usuario.
+✔ Prototipado inicial de interfaces (wireframes).
+✔ Simulación de experiencia de usuario y evaluación heurística.
+
+No se ha iniciado implementación funcional del sistema.
+
+11. Cronograma General (Febrero – Junio)
+FEBRERO – Diseño Final
+
+Diagramas UML.
+
+Modelo de datos.
+
+Wireframes finales.
+
+MARZO – Backend Base
+
+API REST.
+
+Registro y autenticación.
+
+Módulo de evento único.
+
+ABRIL – Frontend Inicial
+
+Registro.
+
+Panel participante.
+
+Dashboard básico.
+
+MAYO – Integración y Pruebas
+
+Validaciones.
+
+Pruebas con usuarios piloto.
+
+Ajustes de experiencia.
+
+JUNIO – Documentación Final
+
+Manual técnico.
+
+Resultados preliminares.
+
+Conclusiones.
+
+Decisión Estratégica: Web vs App
+
+Para este proyecto se recomienda:
+
+ Plataforma Web Responsiva
+
+Justificación:
+
+Menor complejidad.
+
+Despliegue más sencillo.
+
+Compatible con uso en auditorios.
+
+Defendible académicamente.
+
+Menor sobrecarga técnica.
+
+Declaración de Etapa Actual
+
+El proyecto se encuentra en fase de análisis y diseño conceptual.
+La implementación progresiva del prototipo funcional se contempla para la siguiente etapa conforme al cronograma establecido.
+
